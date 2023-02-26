@@ -11,11 +11,11 @@ html{
 header, footer{
     background-color: #222831;
     color:white;
-    height: 60px;
+    height: 3.75rem;
 }
 
 main{
-    padding: 40px;
+    padding: 2.5rem;
     min-height: 100vh;
     width: 60vw;
     margin: 0 auto;
@@ -34,7 +34,7 @@ nav > ul{
     width: 100%;
     align-items: center;
     justify-content: space-evenly;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 nav > ul > li{
@@ -54,14 +54,14 @@ nav > ul > li > a{
     width: 100%;
     display: block;
     text-align: center;
-    line-height: 60px;
+    line-height: 3.75rem;
     text-decoration: none;
     color: white;
 
 } 
 
 body{
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 
@@ -70,28 +70,28 @@ body{
 
 h1{
     font-size: 250%;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     border-bottom: 1px solid black;
     font-weight: 500;
 }
 
 section{
     width: 100%;
-    padding: 40px;
+    padding: 2.5rem;
 }
 
 article{
     width: 100%;
     margin: 0 auto;
-    padding: 40px;
+    padding: 2.5rem;
 }
 
 .box{
     width: 100%;
-    height: 450px;
+    height: 28.125rem;
     position: relative;
     padding: 0;
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
 }
 
 .box > a > figure{
@@ -126,7 +126,7 @@ article{
 }
 
 figure{
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
 }
 
 img{
@@ -141,7 +141,7 @@ img:hover{
 
 
 p{
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
 }
 
 p:last-of-type{
@@ -156,18 +156,18 @@ figcaption{
 
 audio{
     display: block; 
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 video{
     width: 100%;
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
     border-radius: 5px;
 }
 
 .top{
-    width: 80px;
-    height: 80px;
+    width: 5rem;
+    height: 5rem;
     background-color: #222831;
     border: none;
     font-size: 150%;
@@ -175,8 +175,8 @@ video{
     border-radius: 5px;
     color: white;
     position: fixed;
-    bottom: 120px;
-    right: 120px;
+    bottom: 7.5rem;
+    right: 7.5rem;
     text-decoration: none;
     display: flex;
     justify-content: center;
@@ -184,7 +184,7 @@ video{
 }
 
 footer{
-    height: 60px;
+    height: 3.75rem;
     display: flex;
     align-items: center;
 
@@ -193,7 +193,7 @@ footer{
 footer > p{
     width: 60vw;
     margin: 0 auto;
-    padding-left: 80px;
+    padding-left: 5rem;
 }
 
 @media screen and (max-width:1000px){
@@ -211,10 +211,10 @@ footer > p{
     }
     
     .top{
-        width: 60px;
-        height: 60px;
-        bottom: 60px;
-        right: 60px;
+        width: 3.75rem;
+        height: 3.75rem;
+        bottom: 3.75rem;
+        right: 3.75rem;
     }
 
     header{
@@ -235,12 +235,12 @@ footer > p{
 @media screen and (max-width:600px){
 
     body{
-        font-size:16px;
+        font-size: 1rem;
     }
 
     main{
         width: 100vw;
-        padding: 20px;
+        padding: 1.25rem;
     }
 
     h1{
@@ -249,6 +249,6 @@ footer > p{
 
     footer > p{
         width: 100vw;
-        padding-left: 60px;
+        padding-left: 3.75rem;
     }
 }
